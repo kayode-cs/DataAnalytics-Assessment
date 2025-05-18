@@ -1,6 +1,3 @@
-Assessment_Q1.sql
-High-Value Customers with Both Savings and Investment Plans
-
 SELECT
     u.id AS owner_id,
     TRIM(CONCAT(u.first_name, ' ', u.last_name)) AS name,
