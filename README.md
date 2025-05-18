@@ -9,7 +9,7 @@ This repository contains my SQL solutions to a Data Analyst assessment focused o
 
 **Approach:**
 
-- started by inserting the file into MySQL so as to read the file and i start by checking the tables and it Values **CODE USED** is (`SHOW TABLES;`). i listed out the tables from the results and i checked for the columns and rows in each table using (`DESCRIBE tablename`). and it shows the following (`field i.e Column, Type i'e Data type, Null, Key, Default, Extra`)
+- started by inserting the file into MySQL so as to read the file and i start by checking the tables and it Values. **CODE USED** is (`SHOW TABLES;`). i listed out the tables from the results and i checked for the columns and rows in each table using (`DESCRIBE tablename`). and it shows the following (`field i.e Column, Type i'e Data type, Null, Key, Default, Extra`)
 - Identified customers who have at least one active funded savings plan (`is_regular_savings = 1`) **and** one funded investment plan (`is_a_fund = 1`).
 - Joined the `plans_plan` and `savings_savingsaccount` tables to count deposits per product type.
 - Calculated total deposits per customer summing `confirmed_amount` from deposits only.
