@@ -5,7 +5,7 @@ SELECT
     COUNT(s.id) AS total_transactions,
     ROUND(
         (COUNT(s.id) / NULLIF(TIMESTAMPDIFF(MONTH, u.date_joined, CURDATE()), 0)) * 12
-        * AVG(s.confirmed_amount * 0.001 / 100), 2
+        * AVG(s.confirmed_amount * 0.1 / 100), 2
     ) AS estimated_clv
 FROM users_customuser u
 LEFT JOIN savings_savingsaccount s ON s.owner_id = u.id
