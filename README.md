@@ -82,11 +82,10 @@ This repository contains my SQL solutions to a Data Analyst assessment focused o
 
 ---
 
-## General Notes
+## Notes:
 
 - All queries were written in MySQL.
 - Used aggregate functions and date functions for clarity and efficiency.
-- Formatting and comments were added for readability.
 - Assumed `confirmed_amount` > 0 represents inflow deposits; withdrawals ignored unless stated.
 - Careful handling of null and zero values to avoid errors.
 
