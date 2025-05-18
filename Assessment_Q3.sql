@@ -1,6 +1,3 @@
--- Assessment_Q3.sql
--- Find active accounts (savings or investments) with no inflow transactions in last 365 days
-
 WITH last_inflow_tx AS (
     SELECT
         p.id AS plan_id,
